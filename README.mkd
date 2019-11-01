@@ -9,8 +9,10 @@ The initial version of the site had images stored in a directory called `dodatek
 
 Only essential image files (logos) will remain in the `dodatek` directory.
 
+The switch reduced the 15ish minute build and deploy to a few seconds (in the time it took me to click on the netlify browser tab and reload the page, the deploy was done).
 
-## File naming conventinos.
+
+## File naming conventions.
 
 Files are named by the date of the event followed by an underscore and additional numbers. Images used for advertising an event will start with a '0' after the underscore. Thus
 
