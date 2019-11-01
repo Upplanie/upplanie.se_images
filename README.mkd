@@ -1,0 +1,23 @@
+# www.upplanie.se image files
+
+This is a repo for images that will appear on www.upplanie.se. 
+
+
+## Queue times
+
+The initial version of the site had images stored in a directory called `dodatek`. The plan was to just add image files as they came in. After the first addition of some fiveish news items with a few pics each (14 .jpgs in total), the netlify build was taking its sweet time. I looked into it and the first info was that large sites, esp. with lot's of images will eat up Netlify's resources and the build/deply will take longer. So, for the sake of quicker builds and out of respect for netlify and its other users, all pics will be hosted in a separate repo and linked in the site. This leaves the actual site files mostly text. 
+
+Only essential image files (logos) will remain in the `dodatek` directory.
+
+
+## File naming conventinos.
+
+Files are named by the date of the event followed by an underscore and additional numbers. Images used for advertising an event will start with a '0' after the underscore. Thus
+
+        20191101_0.jpg 
+
+advertizes and event that will take place on the first of November, but is not an image from that event. While
+
+        20191101_1.jpg
+
+should be an image from the event itself.
